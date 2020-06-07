@@ -1,13 +1,13 @@
 package com.company;
 
-public class Menu {
+public class MenuItem {
 
     private String name;
     private String productCode;
     private double price;
     private int quantity;
 
-    public Menu(String name, double price, String productCode){
+    public MenuItem(String name, double price, String productCode){
         this.name = name;
         this.price = price;
         this.productCode = productCode;
