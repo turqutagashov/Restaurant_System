@@ -736,7 +736,6 @@ public class Main {
                     break;
                 }
             }
-
             return Arrays.asList(flagQuantity, totalCost);
         }
     }
