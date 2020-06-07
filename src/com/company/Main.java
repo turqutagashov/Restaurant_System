@@ -444,8 +444,8 @@ public class Main {
                                                         System.out.println("-----CART-----");
                                                         if (numberOfItemsInCart > 0) {
                                                             List<Object> flagQtyTotalCost = Helper.flagQuantityAndTotalCost(cart);
-                                                            boolean flagQuantity = (boolean)flagQtyTotalCost.get(0);
-                                                            float totalCost = (float)flagQtyTotalCost.get(1);
+                                                            boolean flagQuantity = (boolean) flagQtyTotalCost.get(0);
+                                                            float totalCost = (float) flagQtyTotalCost.get(1);
 
                                                             if (flagQuantity) {
                                                                 for (int i = 0; i < 32; i++) System.out.print("_");
@@ -562,7 +562,7 @@ public class Main {
 
     public static class Helper {
 
-         static void registration(ArrayList<ArrayList<String>> users) {
+        static void registration(ArrayList<ArrayList<String>> users) {
 
             System.out.println("-----SIGN UP-----");
             System.out.print("Username: ");
@@ -714,7 +714,7 @@ public class Main {
             return Arrays.asList(idOfNewWorker, nameOfNewWorker, ageOfNewWorker, salaryOfNewWorker);
         }
 
-        static List<Object> flagQuantityAndTotalCost(ArrayList<MenuItem> cart){
+        static List<Object> flagQuantityAndTotalCost(ArrayList<MenuItem> cart) {
             System.out.println("Enter quantity of items");
             System.out.println("Name of Product\t\t\tPrice->Quantity");
 
